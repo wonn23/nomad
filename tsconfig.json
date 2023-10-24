@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ES2021",
+    "target": "ES2018",
     "module": "commonjs",
     "strict": true,
     "esModuleInterop": true,
@@ -12,6 +12,7 @@
     "incremental": true,
     "sourceMap": true,
     "declaration": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]
